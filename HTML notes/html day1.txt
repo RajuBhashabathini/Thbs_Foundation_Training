@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>My Web Page</title>
+</head>
+<body bgcolor="yellow">
+
+
+
+<h1 >Heading</h1>
+<h6>Heading
+
+
+
+<a href="https://www.google.com">Click here</a>
+</h6>
+
+
+
+
+
+<img src="images/cat.jpg" alt="could not load image">
+
+
+
+<table border="1px">
+
+
+
+<tr>
+
+
+
+<th>S.No.</th>
+<th>Name</th>
+<th>City</th>
+</tr>
+<tr>
+<td>1</td>
+<td>John</td>
+<td>London</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Mira</td>
+<td>British Columbia</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Sara</td>
+<td>Miami</td>
+</tr>
+</table>
+
+
+
+
+
+<form action="Submitpage.html">
+<table>
+<tr>
+<td>
+<lable>Username</lable>
+</td>
+<td>
+<input type="text">
+</td>
+<tr>
+<tr>
+<td>
+<lable>Password</lable>
+</td>
+<td>
+<input type="password">
+</td>
+</tr>
+</table>
+<tr>
+<input type="submit">
+</tr>
+</form>
+
+
+
+</body>
+</html>
