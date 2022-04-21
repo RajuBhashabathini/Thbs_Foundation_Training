@@ -1,0 +1,14 @@
+/*try
+		{
+			System.out.println("try 1 hahaha");
+			System.out.println(a/b);
+			System.out.println("try 2 hahaha");
+		}
+		catch (Exception e) 
+		{
+			System.out.println("haha");
+		}
+		finally
+		{
+			System.out.println("gotcha");
+		}	*/

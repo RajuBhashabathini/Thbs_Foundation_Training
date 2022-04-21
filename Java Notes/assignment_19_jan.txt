@@ -1,0 +1,54 @@
+FINAL KEYWORD:-
+Final is a keyword in Java
+Final keyword can be used with variable to make it constant.
+It can be used with method to stop overriding
+It can be used with class to stop Inheritance.
+
+ABSTRACT CLASS:-
+---------------
+An abstract class is an incomplete class. An abstract class is defined with the
+keyword abstract . We cannot create an object of the abstract class because it is
+not complete.
+These classes cannot be instantiated and are either partially implemented or not at
+all implemented.
+This class contains one or more abstract methods which are simply method
+declarations without a body.
+This class is used when common features are shared by all object.
+
+INHERITANCE:-
+------------
+Java does not support multiple inheritance because A Java class can only 
+extend one parent class.Multiple inheritance is not allowed. 
+with the help of "Interface" we can use multiple inheritance.
+Interfaces are not classes, however, and an interface can extend more
+ than one parent interface. The extends keyword is used once, and the parent
+ interfaces are declared in a comma-separated list.
+
+what is difference between abstract class and interface:-
+--------------------------------------------------------
+First Lets talk about what is interface in java and what is the use of interface in java ? 
+
+So when we know the specification but not aware of the implementation, then we should go for an interface.
+
+Then the next question will be what is abstract class in java and what is the use of abstract class in java ? 
+
+The answer is very simple, When we know the partial implementation then we should prefer abstract class.
+
+The abstract keyword is used to create an abstract class whereas interface keyword is used to create an interface.
+
+The variable of an abstract class can have final, non-final, static and non-static variables whereas the variable
+ of an interface should be always public static final.
+
+Another difference between abstract class and interface in java is : 
+we can achieve multiple inheritances by using interface whereas with an abstract class it is not possible as multiple inheritance is not supported by java.
+
+An interface can’t have a constructor within it whereas the abstract class can have a constructor within it.
+
+An interface in java can have an only abstract method within it whereas the abstract class in java can have both abstract and concrete method within it.
+
+NEW ENHANCEMENT ON INTERFACE IN JAVA8:-
+Java 8 introduces a new concept of default method implementation in interfaces. This capability is added for backward compatibility so that old interfaces can be used to leverage the lambda expression capability of Java 8.
+
+For example, ‘List’ or ‘Collection’ interfaces do not have ‘forEach’ method declaration. Thus, adding such method will simply break the collection framework implementations. Java 8 introduces default method so that List/Collection interface can have a default implementation of forEach method, and the class implementing these interfaces need not implement the same. 
+
+An interface can also have static helper methods from Java 8 onwards
